@@ -86,10 +86,16 @@ main {
 section {
 	padding-left: .5em;
 	border-bottom: 8px double var(--accent-color);
-	& img {
-		width: clamp(100px, 50%, 250px);
+	& figure {
 		float: right;
 		margin: 0 1em .25em;
+	}
+	& figcaption {
+		font-weight: bold;
+		border-bottom: 1px solid var(--accent-color);
+	}
+	& img {
+		width: clamp(100px, 100%, 250px);
 	}
 }
 
